@@ -8,19 +8,17 @@ main{
     min-height: 50vh;
     position: relative;
     top:80px;
-    margin: auto;
     background-image: url(./images/images/bg-intro-desktop.png);
     background-color: hsl(0, 100%, 74%);
     background-position: center;
     background-size: cover;
-    position: relative;
 }
 .container{
     width: 100%;
     box-sizing: border-box;
     display: flex;
     margin: auto;
-    padding: 10% ;
+    padding: 15% 5% ;
 }
 
 .left-content{
@@ -133,6 +131,7 @@ b{
     background-size: cover;
     position: relative;
     top:0;
+    padding: 5% 2%;
 
 }
     .container{
@@ -169,14 +168,14 @@ b{
         box-sizing: border-box;
     }
     .bottom-content input{
-        width: 300px;
+        width: 290px;
         padding: 10px;
 
     }
     button{
         margin: 0;
         margin-top: 10px;
-        width: 323px;
+        width: 313px;
 
     }
 }
