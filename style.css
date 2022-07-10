@@ -8,6 +8,7 @@ main{
     min-height: 50vh;
     position: relative;
     top:80px;
+    margin: auto;
     background-image: url(./images/images/bg-intro-desktop.png);
     background-color: hsl(0, 100%, 74%);
     background-position: center;
