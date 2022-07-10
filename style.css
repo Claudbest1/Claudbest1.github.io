@@ -123,14 +123,23 @@ b{
 *{
     margin: 0;
     padding: 0;
+}main{
+    width:100%;
+    margin:auto;
+    background-image: url(./images/images/bg-intro-mobile.png);
+    background-color: hsl(0, 100%, 74%);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+
 }
     .container{
         flex-direction: column;
         
     }.left-content{
-        width: 230px;
         margin: 0;
-        padding: 15px 10px;
+        padding: 0;
+        width:100%;
     }
     .left-content h2{
         font-size: 24px;
@@ -140,14 +149,19 @@ b{
         font-size: 13px;
     }
     .right-content{
-        width: 375px;
+        width: 100%;
+        padding:0;
     }
     .top-content{
-        width: 230px;
-        font-size: 12px;
+        margin-top:20px;
+        width: 260px;
+        text-align: center;
+        padding: 10px 5px;
+    }.top-content p{
+        font-size:11px;
     }
     .bottom-content{
-        width: 230px;
+        width: 260px;
         justify-content: center;
         text-align: center;
         box-sizing: border-box;
